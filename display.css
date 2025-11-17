@@ -30,8 +30,30 @@ div.inline-block > * {
 
 .flex {
     display: flex;
-    flex-direction: row; /* row, row-reverse, column, column-reverse */
-    justify-content: center; /* flex-start, flex-end, center, space-between, space-around, space-evenly */
+    background-color: lightpink;
+}
+
+    .justify-start { justify-content: flex-start;}
+    .justify-center: { justify-center; } /* flex-start, flex-end, center, space-between, space-around, space-evenly */
+    .justify-end { justify-content: flex-end;}
+    .justify-evenly { justify-content: space-evenly;}
+    .justify-around { justify-content: space-around;} 
+    .justify-between { justify-content: space-between;}
+}
+
+.direction-reverse {
+    flex-direction: row-reverse; /* row, row-reverse, column, column-reverse */
+}
+
+.align-start {
+    align-items: flex-start; /* flex-start, flex-end, center, stretch, baseline */
+}
+.align-center {
     align-items: center; /* flex-start, flex-end, center, stretch, baseline */
-    gap: 10px; /* spazio tra gli elementi */
+}
+.align-end {
+    align-items: flex-end; /* flex-start, flex-end, center, stretch, baseline */
+}
+.align-stretch {
+    align-items: stretch; /* flex-start, flex-end, center, stretch, baseline */
 }
