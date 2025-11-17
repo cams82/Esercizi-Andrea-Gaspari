@@ -37,6 +37,39 @@ p  {
     color: #63ffff;
     background-color: blueviolet;
     font-family: Arial, Helvetica, sans-serif
-    font-size: 20px;
-    
+    font-size: 1.5em;
+    text-decoration: underline; /* none, underline, overline, line-through */
+    text-align: justify; /* left, right, center, justify *
+    text-transform: capitalize; /* none, capitalize, uppercase, lowercase */
+
+
+}
+
+p span {
+     font-size: 1.5rem;
+     font-weight: bold; /* normal, bold, bolder, lighter, 100, 200, 300, 400, 500, 600, 700, 800, 900 */
+     font-style: italic; /* normal, italic, oblique */
+}
+
+ul  {
+    list-style-type: square; /* none, disc, circle, square, decimal, lower-alpha, upper-alpha, lower-roman, upper-roman */ anche image
+}
+
+body {
+    background-color: pink;
+
+}
+
+div#spazi {
+    background-color: lightsalmon;
+    margin: 12px; /* top right bottom left */
+    padding: 15px;
+    border: solid red 3px; /* stile bordo: none, solid, dashed, dotted, double, groove, ridge, inset, outset */
+}
+
+
+div#spazi-2 {
+    background-color: lightgreen;
+   h1 { margin-bottom: 50px; } /* tra h1 e h2 ci saranno 50px di differenza */
+   h2 { margin-top: 30px; }
 }
