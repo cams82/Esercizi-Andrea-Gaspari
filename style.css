@@ -32,6 +32,10 @@ p > * {
     color: lightgray;
 }
     
-
-
+/* Colori */
+p  {
+    color: #63ffff;
+    background-color: blueviolet;
+    font-family: Ubuntu;
+    
 }
