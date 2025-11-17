@@ -31,6 +31,7 @@ div.inline-block > * {
 .flex {
     display: flex;
     background-color: lightpink;
+    flex-wrap: wrap; /* nowrap, wrap, wrap-reverse */ per andare a capo
 }
 
     .justify-start { justify-content: flex-start;}
@@ -39,7 +40,13 @@ div.inline-block > * {
     .justify-evenly { justify-content: space-evenly;}
     .justify-around { justify-content: space-around;} 
     .justify-between { justify-content: space-between;}
-}
+
+    .grow-1 {
+        flex-grow: 1; /* numero intero >=0 */
+    }
+    .grow-2 {
+        flex-grow: 2; /* numero intero >=0 */
+    }
 
 .direction-reverse {
     flex-direction: row-reverse; /* row, row-reverse, column, column-reverse */
