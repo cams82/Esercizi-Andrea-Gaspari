@@ -1,6 +1,6 @@
-div > *:nth-child(1) { background-color: orange;}
-div > *:nth-child(2) { background-color: rgb(255, 123, 0);}
-div > *:nth-child(3) { background-color: red;}    
+div > *:nth-child(1) { background-color: orange; width: 150px;}
+div > *:nth-child(2) { background-color: rgb(255, 123, 0); width: 150px;}
+div > *:nth-child(3) { background-color: red; width: 150px;}    
 
 .flex > * {
     display: inline;
@@ -11,3 +11,7 @@ div > *:nth-child(3) { background-color: red;}
     justify-content: space-between;
 }
 
+/* Es. 2 */
+.grow-1 {
+    flex-grow: 1; /* numero intero >=0 */
+}
