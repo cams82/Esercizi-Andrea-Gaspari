@@ -2,7 +2,12 @@ div > *:nth-child(1) { background-color: orange;}
 div > *:nth-child(2) { background-color: rgb(255, 123, 0);}
 div > *:nth-child(3) { background-color: red;}    
 
-div.inline > * {
+.flex > * {
     display: inline;
+}
+
+.justify-space-between > * {
+    display: inline-block;
+    justify-content: space-between;
 }
 
