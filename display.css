@@ -28,3 +28,10 @@ div.inline-block > * {
     opacity: 0; /* 0 a 1 */
 }   
 
+.flex {
+    display: flex;
+    flex-direction: row; /* row, row-reverse, column, column-reverse */
+    justify-content: center; /* flex-start, flex-end, center, space-between, space-around, space-evenly */
+    align-items: center; /* flex-start, flex-end, center, stretch, baseline */
+    gap: 10px; /* spazio tra gli elementi */
+}
